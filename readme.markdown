@@ -61,6 +61,13 @@ Basically a 'work in progress'. (Not that i'd necessarily be working on it!)
 
 ### TODO(maybe)
 
+* Pick inferior license.
+
+* It currently re-sorts what should have been a  priority queue, maybe use
+  [this](https://groups.google.com/group/julia-dev/browse_thread/thread/ff0089b17d22e9) to make that proper.(it is in the examples now though)
+  
+* That code also shows how pathfind.j can be 'more typed'.
+
 * Neater way to abstract what `Node` does? I do not want getter/setter 
   functions, hope Julia will implement something that will have the 
   properties i need.(Might even already exist and i missed it so far)

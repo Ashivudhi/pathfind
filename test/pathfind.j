@@ -50,6 +50,7 @@ function rand_pathfind (world, cur_mark)
   return pathfind(from,to, cur_mark,world)
 end
 
+load("c/get-c.j")
 load("c/init_stuff.j")
 load("c/draw_funs.j")
 
